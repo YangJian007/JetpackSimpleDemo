@@ -14,3 +14,12 @@ dependencyResolutionManagement {
 }
 rootProject.name = "JetpackSampleDemo"
 include ':lifecycle'
+include ':viewmodel'
+include ':livedata'
+include ':viewbinding'
+include ':databinding'
+include ':room'
+include ':hilt'
+include ':coroutieflow'
+include ':paging'
+include ':compose'

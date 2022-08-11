@@ -10,7 +10,16 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/compose" />
+            <option value="$PROJECT_DIR$/coroutieflow" />
+            <option value="$PROJECT_DIR$/databinding" />
+            <option value="$PROJECT_DIR$/hilt" />
             <option value="$PROJECT_DIR$/lifecycle" />
+            <option value="$PROJECT_DIR$/livedata" />
+            <option value="$PROJECT_DIR$/paging" />
+            <option value="$PROJECT_DIR$/room" />
+            <option value="$PROJECT_DIR$/viewbinding" />
+            <option value="$PROJECT_DIR$/viewmodel" />
           </set>
         </option>
       </GradleProjectSettings>
