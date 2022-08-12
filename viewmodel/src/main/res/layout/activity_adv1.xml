@@ -6,22 +6,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".MainActivity">
+    tools:context=".AdvActivity1">
 
-    <Button
-        android:id="@+id/btn1"
-        android:layout_width="match_parent"
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="onSaveInstance"/>
-
-      <Button
-        android:id="@+id/btn2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="viewModel"/>
-
-
+        android:text="aaa"/>
 
 </LinearLayout>
