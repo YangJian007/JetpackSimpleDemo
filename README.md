@@ -1,77 +1,12 @@
-# JetpackSimpleDemo
-#前言
-    #第1章 认识Jetpack
-    ##1.1　Android开发架构的发展历程
-    ##1.2　什么是Jetpack
-    ##1.3　如何构建支持Jetpack的项目
-    ##1.4　小结
-    #第2章 使用Lifecycle，感知生命周期
-    ##2.1　从广告引导页的需求说起
-    ##2.2　Lifecycle的基本使用
-    ##2.3　使用Lifecycle解决实际项目中常见的问题
-    ##2.4　原理小课堂
-    ##2.5　小结
-    #第3章 使用ViewModel管理页面数据
-    ##3.1　什么是ViewModel
-    ##3.2　使用ViewModel解决广告引导页屏幕旋转问题
-    ##3.3　ViewModel的生命周期
-    ##3.4　使用ViewModel实现数据共享
-    ##3.5　原理小课堂
-    ##3.6　小结
-    #第4章 可观察的数据持有者类LiveData
-    ##4.1　什么是LiveData
-    ##4.2　LiveData的基本使用
-    ##4.3　map与switchMap
-    ##4.4　原理小课堂
-    ##4.5　小结
-    #第5章 视图绑定组件之ViewBinding
-    ##5.1　从findViewById说起
-    ##5.2　ViewBinding的基本使用
-    ##5.3　ViewBinding的封装优化
-    ##5.4　原理小课堂
-    ##5.5　小结
-    #第6章 数据绑定组件之DataBinding
-    ##6.1　DataBinding的基本使用
-    ##6.2　自定义BindingAdapter
-    ##6.3　双向数据绑定
-    ##6.4　DataBinding与ViewBinding的区别
-    ##6.5　原理小课堂
-    ##6.6　小结
-    #第7章 官方数据库框架之Room
-    ##7.1　Android数据库ORM框架
-    ##7.2　使用Room实现登录账号列表功能
-    ##7.3　Room数据库的升级
-    ##7.4　原理小课堂
-    ##7.5　小结
-    #第8章 减少手动依赖，探究Hilt
-    ##8.1　什么是依赖注入
-    ##8.2　基于Dagger看Hilt
-    ##8.3　Hilt的基本使用
-    ##8.4　原理小课堂
-    ##8.5　小结
-    #第9章 优雅地实现异步任务：Kotlin协程与Flow
-    ##9.1　什么是协程
-    ##9.2　使用协程优雅地实现异步任务
-    ##9.3　Kotlin数据流
-    ##9.4　原理小课堂
-    ##9.5　小结
-    #第10章 分页库Paging3的使用
-    ##10.1　Android中分页功能常见的设计方法
-    ##10.2　网络请求的封装与使用
-    ##10.3　使用Paging3实现网络数据的分页加载
-    ##10.4　原理小课堂
-    ##10.5　小结
-    #第11章 打造一个MVVM架构的健康出行App
-    ##11.1　项目需求设计与可行性分析
-    ##11.2　组件化结构的设计与搭建
-    ##11.3　查询城市数据
-    ##11.4　查询城市核酸检测机构
-    ##11.5　查询疫情风险等级地区
-    ##11.6　查询健康出行政策
-    ##11.7　小结
-    #第12章 体验最新响应式编程技术Jetpack Compos
-    ##12.1　什么是Jetpack Compose
-    ##12.2　Compose的基础知识
-    ##12.3　Compose基础组件的使用
-    ##12.4　Compose列表组件的使用
-    ##12.5　小结
+# 推荐学习顺序
+1.  Lifecycle
+2.  ViewModel
+3. LiveData
+4. ViewBinding
+5. DataBinding
+6. Room
+7. Hilt
+8. Kotlin协程与Flow
+9. Paging3
+10. Jetpack Compos
+ 
