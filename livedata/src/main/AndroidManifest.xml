@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JetpackSampleDemo">
         <activity
+            android:name=".switchmap.SwitchMapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".map.MapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".livedata.AdvActivity2"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
