@@ -7,7 +7,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.yang.coroutieflow"
+        applicationId "com.yang.test"
         minSdk 21
         targetSdk 32
         versionCode 1
@@ -29,6 +29,12 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
+    buildFeatures {
+        dataBinding = true
+        viewBinding = true
+    }
+
 }
 
 dependencies {
@@ -38,15 +44,8 @@ dependencies {
     implementation 'com.google.android.material:material:1.4.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
     testImplementation 'junit:junit:4.13.2'
-    //androidx测试库
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
-    //协程
-    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9'
-    //lifecycleScope
-    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.2.0'
-    //viewModelScope
-    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0'
-
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.6.0-alpha01"
 }
