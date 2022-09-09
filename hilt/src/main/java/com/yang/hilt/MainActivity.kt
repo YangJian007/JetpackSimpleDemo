@@ -4,6 +4,8 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
+import com.yang.hilt.interdaceexample.Animal
+import com.yang.hilt.interdaceexample.annotations.CatImp
 import com.yang.hilt.net.UserService
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
@@ -19,6 +21,10 @@ class MainActivity : AppCompatActivity() {
     @Inject
     lateinit var userService: UserService
 
+    @Inject
+    @CatImp
+    lateinit var animal: Animal
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -29,6 +35,8 @@ class MainActivity : AppCompatActivity() {
             val userInfo = userService.userInfo("15225937677", "yang641052")
             Toast.makeText(this@MainActivity, userInfo.data.toString(), Toast.LENGTH_SHORT).show()
         }
+
+        animal.eat()
 
     }
 }
