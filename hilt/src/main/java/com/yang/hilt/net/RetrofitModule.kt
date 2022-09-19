@@ -31,7 +31,7 @@ import javax.inject.Singleton
 object RetrofitModule {
 
     /** 服务地址 */
-    private const val BASE_URL = "https://www.wanandroid.com"
+    private const val BASE_URL = "https://www.wanandroid.com/"
 
     /** 提供OkHttpClient */
     @Singleton

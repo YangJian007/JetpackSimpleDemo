@@ -18,7 +18,7 @@ interface UserService {
      * 获取用户信息
      */
     @FormUrlEncoded
-    @POST("/user/login")
+    @POST("user/login")
     suspend fun userInfo(@Field("username") username:String,
                          @Field("password") password:String
                          ): BaseReqData<LoginReq>
